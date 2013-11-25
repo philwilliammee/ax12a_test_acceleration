@@ -1,0 +1,43 @@
+0	Model Number(L)
+1	Model Number(H)
+2	Version of Firmware
+3	ID
+4	Baud Rate
+5	Return Delay Time
+6	CW Angle Limit(L)
+7	CW Angle Limit(H)
+8	CCW Angle Limit(L)
+9	CCW Angle Limit(H)
+11	the Highest Limit Temperature
+12	the Lowest Limit Voltage
+13	the Highest Limit Voltage
+14	Max Torque(L)
+15	Max Torque(H)
+16	Status Return Level
+17	Alarm LED
+18	Alarm Shutdown
+24	Torque Enable
+25	LED
+26	CW Compliance Margin
+27	 CCW Compliance Margin
+28	CW Compliance Slope
+29	CCW Compliance Slope
+30	Goal Position(L)
+31	Goal Position(H)
+32	Moving Speed(L)
+33	Moving Speed(H)
+34	Torque Limit(L)
+35	Torque Limit(H)
+36	Present Position(L)
+37	Present Position(H)
+38	Present Speed(L)
+39	Present Speed(H)
+40	Present Load(L)
+41	Present Load(H)
+42	Present Voltage
+43	Present Temperature
+44	Registered
+46	Moving
+47	Lock
+48	Punch(L)
+49	Punch(H)
