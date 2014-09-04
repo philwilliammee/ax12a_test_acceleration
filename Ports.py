@@ -56,17 +56,12 @@ def open_port():
     global BAUDRATE
     s.baudrate = BAUDRATE             # baud rate, in bits/second
     p = findPorts()
-    if is_writable(p[0]):
-        s.port = p[0]
-        s.open()
-        if (s.isOpen() == False):
-            print "error could not open", s
-        else:
-            print "port open at ", s.port
-            
+    s.port = p[0]
+    s.open()
+    if (s.isOpen() == False):
+        print "error could not open", s
     else:
-        print getpass.getuser(), " is not in the dialup group and does"
-        print "not have permission to access the serial port"
+        print "port open at ", s.port
     
 def is_writable(filepath):
     st = os.stat(filepath)
@@ -76,7 +71,6 @@ def test_ports():
     global s
     p = findPorts()
     print p
-    print is_writable(p[0])
     open_port()
     if (s.isOpen() == False):
         print "error could not open", s
